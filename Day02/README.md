@@ -69,9 +69,9 @@ if __name__ == "__main__":
 ```
 
 La lectura de los datos es igual que en el apartado anterior, así que no nos vamos a molestar
-en repetirlo, y vamos a pasar directamente al bucle.
+en repetirlo, y vamos a pasar directamente al bucle, aunque tampoco es que cambie mucho.
 
-El bucle funciona exactamente igual que en el apartado anterior, únicamente cambiando las operaciones 
+El bucle funciona exactamente igual que antes, únicamente cambiando las operaciones 
 correspondientes a cada función.
 ```python3
 depth = pos = aim = 0
