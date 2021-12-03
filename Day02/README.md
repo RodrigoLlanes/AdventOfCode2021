@@ -4,7 +4,8 @@
 | 2   | 00:03:15 | 1227 | 0     | 00:08:07 | 2928 | 0     |
 
 Consejo del día, leed bien el enunciado, como podéis observar eso me ha penalizado mucho en el segundo apartado,
-pues no he implementado la funcionalidad que pedían para cada instrucción correctamente.
+pues no he implementado la funcionalidad que pedían para cada instrucción correctamente, me ha dado resultado 
+incorrecto y me ha tocado repetirlo.
 
 ## [Parte 1](./Sol1.py)
 Seguimos en la ronda de calentamiento, otro problema sencillito para ir abriendo boca, en el reto de hoy,
@@ -68,9 +69,9 @@ if __name__ == "__main__":
 ```
 
 La lectura de los datos es igual que en el apartado anterior, así que no nos vamos a molestar
-en repetirlo, y vamos a pasar directamente al bucle.
+en repetirlo, y vamos a pasar directamente al bucle, aunque tampoco es que cambie mucho.
 
-El bucle funciona exactamente igual que en el apartado anterior, únicamente cambiando las operaciones 
+El bucle funciona exactamente igual que antes, únicamente cambiando las operaciones 
 correspondientes a cada función.
 ```python3
 depth = pos = aim = 0
