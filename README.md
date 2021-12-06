@@ -8,3 +8,4 @@ Mis soluciones para [AdventOfCode2021](https://adventofcode.com/2021)
 | 3   | [Binary Diagnostic](https://adventofcode.com/2021/day/3)       | [Day03](./Day03/README.md)     |
 | 4   | [Giant Squid](https://adventofcode.com/2021/day/4)             | [Day04](./Day04/README.md)     |
 | 5   | [Hydrothermal Venture](https://adventofcode.com/2021/day/5)    | [Day05](./Day05/README.md)     |
+| 6   | [Lanternfish](https://adventofcode.com/2021/day/6)             | [Day05](./Day06/README.md)     |
