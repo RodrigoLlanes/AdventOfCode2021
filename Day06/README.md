@@ -37,7 +37,7 @@ data = [list(map(int, line.strip().split(","))) for line in open("input.txt", "r
 data = {c: data.count(c) for c in set(data)}]
 ```
 
-Una vez tenemos nuestr input limpio, iteramos 80 veces, y en cada iteración, recorremos nuestro diccionario
+Una vez tenemos nuestro input limpio, iteramos 80 veces, y en cada iteración, recorremos nuestro diccionario
 y generamos uno nuevo con los decrementos de los contadores, los reseteos y los nuevos elementos.
 ```python3
 for _ in range(80):
