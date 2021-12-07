@@ -1,7 +1,7 @@
 # [Día 7](./)
 | Day | Time     | Rank | Score | Time     | Rank | Score |
 |-----|----------|------|-------|----------|------|-------|
-| ?   | ??:??:?? | ???? | ?     | ??:??:?? | ???? | ?     |
+| 7   | 00:06:06 | 2180 | 0     | 00:12:17 | 2583 | 0     |
 
 ## [Parte 1](./Sol1.py)
 En esta primera parte, hay que encontrar el valor que maximice la suma de ```abs(pos - valor)``` para todos
