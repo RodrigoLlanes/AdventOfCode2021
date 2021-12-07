@@ -35,7 +35,7 @@ el coste.
 ## [Parte 2](./Sol2.py)
 En esta segunda parte, lo único que cambia es la forma de calcular el coste de los desplazamientos, para
 calcular la suma de los n primeros números naturales (1 + 2 + ... + n), podemos calcular el [enésimo número
-triangular](https://es.wikipedia.org/wiki/N%C3%BAmero_triangular) $ T_{n} = \frac{n * (n+1)}{2} $.
+triangular](https://es.wikipedia.org/wiki/N%C3%BAmero_triangular) ```Tn = n * (n + 1) / 2```.
 ```python3
 if __name__ == "__main__":
     data = [list(map(int, line.strip().split(","))) for line in open("input.txt", "r").readlines()][0]
