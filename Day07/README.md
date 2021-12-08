@@ -27,9 +27,9 @@ Hecho esto, inicializamos la variable best, a un caso peor que el óptimo, que t
 moverse a la posición 0. Tras esto iteramos en todas las posiciones posibles y nos quedamos con la que minimiza
 el coste.
 ```python3
-    best = sum(data)
-    for i in range(min(data), max(data)):
-        prev = min(best, sum(abs(d-i) for d in data))
+best = sum(data)
+for i in range(min(data), max(data)):
+    prev = min(best, sum(abs(d-i) for d in data))
 ```
 
 ## [Parte 2](./Sol2.py)
