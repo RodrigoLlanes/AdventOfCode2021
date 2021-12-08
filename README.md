@@ -10,3 +10,4 @@ Mis soluciones para [AdventOfCode2021](https://adventofcode.com/2021)
 | 5   | [Hydrothermal Venture](https://adventofcode.com/2021/day/5)    | [Day05](./Day05/README.md) |
 | 6   | [Lanternfish](https://adventofcode.com/2021/day/6)             | [Day06](./Day06/README.md) |
 | 7   | [The Treachery of Whales](https://adventofcode.com/2021/day/7) | [Day07](./Day07/README.md) |
+| 8   | [Seven Segment Search](https://adventofcode.com/2021/day/8)    | [Day08](./Day08/README.md) |
