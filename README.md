@@ -15,3 +15,4 @@ Mis soluciones para [AdventOfCode2021](https://adventofcode.com/2021)
 | 10  | [Syntax Scoring](https://adventofcode.com/2021/day/10)         | [Day10](./Day10/README.md) |
 | 11  | [Dumbo Octopus](https://adventofcode.com/2021/day/11)          | [Day11](./Day11/README.md) |
 | 12  | [Passage Pathing](https://adventofcode.com/2021/day/12)        | [Day12](./Day12/README.md) |
+| 13  | [Transparent Origami](https://adventofcode.com/2021/day/13)    | [Day13](./Day13/README.md) |
