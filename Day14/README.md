@@ -8,7 +8,7 @@ Volvemos con uno de estos problemas en los que la primera parte puede funcionar 
 segunda no, en este caso durante la primera parte no se me ocurría como hacerlo eficiente así que implementé una versíon
 ineficiente para ir ganando tiempo e implementé la versión correcta en la segunda parte, como el código de la segunda es 
 mejor y vale para las dos, solo voy a explicar ese y si alguien, por algún motivo quiere ver mi versión de la primera [aquí
-tenéis un enlace](./Sol1.py).
+tenéis un enlace](Sol1.py).
 
 Dicho todo esto, en ambas partes el objetivo es ir llevando la cuenta de las inserciones, pero nos da igual el orden,
 así que lo que vamos a hacer es llevar por un lado la cuenta de los símbolos individuales y por otro de los pares de símbolos,
