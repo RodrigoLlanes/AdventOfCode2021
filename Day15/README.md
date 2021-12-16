@@ -3,7 +3,7 @@
 |-----|----------|------|-------|----------|------|-------|
 | 15  | 01:03:17 | 4059 | 0     | 01:14:12 | 2486 | 0     |
 
-## [Parte 1](./Sol2.py)
+## [Parte 1](./Sol1.py)
 Mis resultados de hoy son un claro ejemplo de que es mejor pararse y pensar un poco, que ponerte a implementar lo primero 
 que se te viene a la cabeza a toda prisa.
 
