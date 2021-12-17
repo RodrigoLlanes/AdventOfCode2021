@@ -19,3 +19,4 @@ Mis soluciones para [AdventOfCode2021](https://adventofcode.com/2021)
 | 14  | [Extended Polymerization](https://adventofcode.com/2021/day/14) | [Day14](./Day14/README.md) |
 | 15  | [Chiton](https://adventofcode.com/2021/day/15)                  | [Day15](./Day15/README.md) |
 | 16  | [Packet Decoder](https://adventofcode.com/2021/day/16)          | [Day16](./Day16/README.md) |
+| 17  | [Trick Shot](https://adventofcode.com/2021/day/17)              | [Day17](./Day17/README.md) |
