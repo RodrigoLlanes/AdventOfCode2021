@@ -3,7 +3,7 @@
 |-----|----------|------|-------|----------|------|-------|
 | 17  | 00:36:51 | 2499 | 0     | 01:52:27 | 4895 | 0     |
 
-## [Parte 1](./Sol1b.py)
+## [Parte 1](./Sol1.py)
 El reto de hoy era terriblemente sencillo, la primera parte consistía en calcular la altura máxima a la que podemos lanzar
 una sonda para que caiga en una fosa oceánica sin pasarse.
 ```python3
