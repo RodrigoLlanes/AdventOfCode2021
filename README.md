@@ -20,3 +20,5 @@ Mis soluciones para [AdventOfCode2021](https://adventofcode.com/2021)
 | 15  | [Chiton](https://adventofcode.com/2021/day/15)                  | [Day15](./Day15/README.md) |
 | 16  | [Packet Decoder](https://adventofcode.com/2021/day/16)          | [Day16](./Day16/README.md) |
 | 17  | [Trick Shot](https://adventofcode.com/2021/day/17)              | [Day17](./Day17/README.md) |
+| 18  | [Snailfish](https://adventofcode.com/2021/day/18)               | [Day18](./Day18/README.md) |
+| 19  | [Beacon Scanner](https://adventofcode.com/2021/day/19)          | [Day19](./Day19/README.md) |

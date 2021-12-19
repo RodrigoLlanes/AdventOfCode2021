@@ -10,7 +10,6 @@ def transform_set(beacons, orientation):
     return set(transform(pos, orientation) for pos in beacons)
 
 
-# https://github.com/mustafaquraish/aoc-2021/blob/master/python/19.py
 def transform(pt, orientation):
     a, b, c = pt
     return (
