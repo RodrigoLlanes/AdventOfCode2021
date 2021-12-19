@@ -2,10 +2,15 @@ from copy import deepcopy
 import re
 
 
+def manhattan(p0, p1):
+    return sum(abs(d0 - d1) for (d0, d1) in zip(p0, p1))
+
+
 def transform_set(beacons, orientation):
     return set(transform(pos, orientation) for pos in beacons)
 
 
+# https://github.com/mustafaquraish/aoc-2021/blob/master/python/19.py
 def transform(pt, orientation):
     a, b, c = pt
     return (
@@ -31,7 +36,8 @@ def match(_beacons, curr):
         for beacon, b_rel in beacons.items():
             for pivot, p_rel in curr_relatives.items():
                 if len(set.intersection(b_rel, p_rel)) >= 12:
-                    return relative_set(b_rel, dis=pivot)
+                    scan = relative(transform(relative((0, 0, 0), piv=beacon), orientation), dis=pivot)
+                    return relative_set(b_rel, dis=pivot), scan
     return None
 
 
@@ -53,15 +59,24 @@ def main():
 
     aligned = deepcopy(data[0])
     queue = deepcopy(relatives[1:])
+    scanners = [(0, 0, 0)]
     while len(queue) > 0:
         b = queue.pop(0)
-        res = match(deepcopy(b), aligned)
+        res = match(b, aligned)
         if res is not None:
-            aligned = aligned.union(res)
+            al, scan = res
+            aligned = aligned.union(al)
+            scanners.append(scan)
         else:
             queue.append(b)
 
-    print(len(aligned))
+    m = manhattan(scanners[0], scanners[1])
+    for a in scanners:
+        for b in scanners:
+            if a != b:
+                m = max(m, manhattan(a, b))
+
+    print(m)
 
 
 if __name__ == "__main__":
