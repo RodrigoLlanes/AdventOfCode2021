@@ -55,7 +55,7 @@ def main():
     queue = deepcopy(relatives[1:])
     while len(queue) > 0:
         b = queue.pop(0)
-        res = match(deepcopy(b), aligned)
+        res = match(b, aligned)
         if res is not None:
             aligned = aligned.union(res)
         else:
