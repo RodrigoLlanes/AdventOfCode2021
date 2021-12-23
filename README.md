@@ -24,4 +24,5 @@ Mis soluciones para [AdventOfCode2021](https://adventofcode.com/2021)
 | 19  | [Beacon Scanner](https://adventofcode.com/2021/day/19)          | [Day19](./Day19/README.md) |
 | 20  | [Trench Map](https://adventofcode.com/2021/day/20)              | [Day20](./Day20/README.md) |
 | 21  | [Dirac Dice](https://adventofcode.com/2021/day/21)              | [Day21](./Day21/README.md) |
-| 22  | [Reactor Reboot](https://adventofcode.com/2021/day/22)          | [Day22](./Day22) |
+| 22  | [Reactor Reboot](https://adventofcode.com/2021/day/22)          | [Day22](./Day22/README.md) |
+| 23  | [Amphipod](https://adventofcode.com/2021/day/23)                | [Day23](./Day23/README.md) |
