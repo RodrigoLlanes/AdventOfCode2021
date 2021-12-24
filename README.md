@@ -26,3 +26,4 @@ Mis soluciones para [AdventOfCode2021](https://adventofcode.com/2021)
 | 21  | [Dirac Dice](https://adventofcode.com/2021/day/21)              | [Day21](./Day21/README.md) |
 | 22  | [Reactor Reboot](https://adventofcode.com/2021/day/22)          | [Day22](./Day22/README.md) |
 | 23  | [Amphipod](https://adventofcode.com/2021/day/23)                | [Day23](./Day23/README.md) |
+| 24  | [Arithmetic Logic Unit](https://adventofcode.com/2021/day/24)   | [Day24](./Day24/README.md) |
